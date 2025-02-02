@@ -30,7 +30,7 @@ const ResultModal = forwardRef(function ResultModal(
         You stopped the timer with{" "}
         <strong>{formattedRemainingTime} seconds left</strong>
       </p>
-      <form action="dialog">
+      <form method="dialog">
         <button>Close</button>
       </form>
     </dialog>,

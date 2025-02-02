@@ -35,7 +35,7 @@ export default function TimeChallenge({ title, targetTime }) {
         ref={dialog}
         targetTime={targetTime}
         remainingTime={timeRemaining}
-        onResult={handleReset}
+        onReset={handleReset}
       />
       <section className="challenge">
         <h2>{title}</h2>
